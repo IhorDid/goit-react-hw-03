@@ -18,7 +18,7 @@ const ContactForm = () => {
         <Field type="text" name="username" id={nameFieldId} />
 
         <label htmlFor={numberFieldId}>Number</label>
-        <Field type="number" name="username" id={numberFieldId} />
+        <Field type="tel" name="username" id={numberFieldId} />
 
         <button type="submit">Add contact</button>
       </Form>
